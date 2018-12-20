@@ -1,5 +1,5 @@
 FROM alpine:3.8
-MAINTAINER Hyper <hyper@dakalab.com>
+LABEL maintainer="hyperjiang@gmail.com"
 
 RUN apk add --no-cache vsftpd
 RUN rm -rf /var/cache/apk/*

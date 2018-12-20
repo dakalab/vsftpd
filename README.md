@@ -1,10 +1,13 @@
 # vsftpd
 
-[![Docker Build Status](https://img.shields.io/docker/build/dakalab/vsftpd.svg?style=plastic)](https://hub.docker.com/r/dakalab/vsftpd/builds/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/dakalab/vsftpd.svg)](https://hub.docker.com/r/dakalab/vsftpd)
 [![License](https://img.shields.io/github/license/dakalab/vsftpd.svg)](https://github.com/dakalab/vsftpd)
 
-This image contains vsftpd server configured with only one user `files` with volume `/home/files`. Password is set from `FTP_PASS` env variable or automatically generated if not provided.
+This image contains vsftpd server configured with only one user `files` with volume `/home/files` exposed. Password is set from `FTP_PASS` env variable or automatically generated if not provided.
+
+Ports exposed: 20, 21, 21100-21110.
+
+Logs will write to stdout, so you can use `docker logs vsftpd` to check logs.
 
 ## Usage
 
