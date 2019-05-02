@@ -1,5 +1,6 @@
 # vsftpd
 
+[![Release](https://img.shields.io/github/release/dakalab/vsftpd.svg)](https://github.com/dakalab/vsftpd/releases)
 [![Docker Pulls](https://img.shields.io/docker/pulls/dakalab/vsftpd.svg)](https://hub.docker.com/r/dakalab/vsftpd)
 [![License](https://img.shields.io/github/license/dakalab/vsftpd.svg)](https://github.com/dakalab/vsftpd)
 
