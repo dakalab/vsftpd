@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.9
 LABEL maintainer="hyperjiang@gmail.com"
 
 RUN apk add --no-cache vsftpd
